@@ -1,5 +1,8 @@
 zuul:
   routes:
+    products:
+      path: /api/v1/instructors/**
+      url: https://course-web-app-java.herokuapp.com/
     my-service:
       path: /my-service/**
       serviceId: my-service
