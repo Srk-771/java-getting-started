@@ -2,13 +2,13 @@ zuul:
   routes:
     get:
       path: /get/**
-      url: https://mysterious-plains-07158.herokuapp.com
+      url: https://mysterious-plains-07158.herokuapp.com/get
     links:
       path: /links/**
       url: https://mysterious-plains-07158.herokuapp.com
-    #images:
-     # path: /image/**
-      #url: http://httpbin.org/image
+    images:
+      path: /image/**
+      url: http://httpbin.org/image
 
 eureka:
   client:
