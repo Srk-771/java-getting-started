@@ -2,7 +2,7 @@ zuul:
   routes:
     get:
       path: /get/**
-      url: https://mysterious-plains-07158.herokuapp.com/get
+      url: https://course-web-app-java.herokuapp.com/api/v1/instructors/rakesh/courses/get
     links:
       path: /links/**
       url: https://mysterious-plains-07158.herokuapp.com
