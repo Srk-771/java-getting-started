@@ -1,14 +1,14 @@
 zuul:
   routes:
-    heroku:
-      path: /heroku/**
-      url: https://course-web-app-java.herokuapp.com/api/v1/instructors/rakesh/courses
+    get:
+      path: /get/**
+      url: http://httpbin.org/get
     links:
       path: /links/**
-      url: https://mysterious-plains-07158.herokuapp.com
+      url: http://httpbin.org/links
     images:
       path: /image/**
-      url: https://course-web-app-java.herokuapp.com/api/v1/instructors/rakesh/courses
+      url: http://httpbin.org/image
 
 eureka:
   client:
