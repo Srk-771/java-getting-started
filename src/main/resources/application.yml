@@ -1,17 +1,5 @@
 zuul:
   routes:
-    products:
-      path: /api/v1/**
-      url: https://course-web-app-java.herokuapp.com/
-    links:
-      path: /links/**
-      url: http://httpbin.org/links
-    images:
-      path: /image/**
-      url: http://httpbin.org/image
-
-zuul:
-  routes:
     my-service:
       path: /my-service/**
       serviceId: my-service
