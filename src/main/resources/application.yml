@@ -10,6 +10,13 @@ zuul:
       path: /image/**
       url: http://httpbin.org/image
 
+zuul:
+  routes:
+    my-service:
+      path: /my-service/**
+      serviceId: my-service
+
 eureka:
   client:
-    enabled: false
+    serviceUrl:
+      defaultZone: ${EUREKA_URL:http://user:Dev@2021@localhost:5000}/eureka/
