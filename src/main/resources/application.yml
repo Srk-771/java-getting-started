@@ -1,7 +1,7 @@
 zuul:
   routes:
-    get:
-      path: /course-web-app-java.herokuapp.com/**
+    heroku:
+      path: /heroku/**
       url: https://course-web-app-java.herokuapp.com/api/v1/instructors/rakesh/courses
     links:
       path: /links/**
